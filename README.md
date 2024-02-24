@@ -2,7 +2,7 @@ User-Defined Function for ClickHouse
 
 # jaroWinklerDistance
 
-Calculate the [Jaro–Winkler](https://en.wikipedia.org/wiki/Jaro%E2%80%93Winkler_distance) distance between two strings.
+Calculate the [Jaro–Winkler distance](https://en.wikipedia.org/wiki/Jaro%E2%80%93Winkler_distance) between two strings.
 The SQL function has been rewritten from the Python version available at the link: [https://python.algorithmexamples.com/web/strings/jaro_winkler.html](https://python.algorithmexamples.com/web/strings/jaro_winkler.html)
 
 ### Syntax 
