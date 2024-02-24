@@ -24,7 +24,6 @@ create or replace function jaroWinklerDistance /* on cluster cluster_name */
                                                 string2,
                                                 greatest(1, x + 1 - limit),
                                                 least(x + 1 + limit, limit * 2 + 1)
-
                                             ),
                                             substringUTF8(
                                                 string1,
