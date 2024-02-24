@@ -1,2 +1,34 @@
-# clickhouse-udf-jaro-winkler-distance
-ClickHouse user defined function calculate Jaro–Winkler similarity between 2 strings
+User-Defined Function for ClickHouse
+
+# jaroWinklerDistance
+
+Calculate the [Jaro–Winkler](https://en.wikipedia.org/wiki/Jaro%E2%80%93Winkler_distance) distance between two strings.
+
+### Syntax 
+
+```
+jaroWinklerDistance(string1, string2)
+```
+
+### Arguments:
+
+- `string1` — The first input string to be compared. [String](https://clickhouse.com/docs/en/sql-reference/data-types/string).
+- `string2` — The second input string to be compared. [String](https://clickhouse.com/docs/en/sql-reference/data-types/string).
+
+### Returned value
+
+- Jaro–Winkler value [Float32](https://clickhouse.com/docs/en/sql-reference/data-types/float)
+
+### Example
+
+```
+SELECT jaroWinklerDistance('abc', 'cab');
+```
+
+Result:
+
+```
+┌─laroWinklerDistance('abc', 'cab')─┐
+│                             0.777 │
+└───────────────────────────────────┘
+```
