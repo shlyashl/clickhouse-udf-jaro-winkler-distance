@@ -29,7 +29,7 @@ SELECT jaroWinklerDistance('abc', 'cab');
 Result:
 
 ```
-┌─laroWinklerDistance('abc', 'cab')─┐
+┌─jaroWinklerDistance('abc', 'cab')─┐
 │                             0.777 │
 └───────────────────────────────────┘
 ```
