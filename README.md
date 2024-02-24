@@ -11,7 +11,7 @@ The SQL function has been rewritten from the Python version available at the lin
 jaroWinklerDistance(string1, string2)
 ```
 
-### Arguments:
+### Arguments
 
 - `string1` — The first input string to be compared. [String](https://clickhouse.com/docs/en/sql-reference/data-types/string).
 - `string2` — The second input string to be compared. [String](https://clickhouse.com/docs/en/sql-reference/data-types/string).
